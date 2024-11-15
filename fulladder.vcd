@@ -1,0 +1,127 @@
+$date
+	Fri Nov 15 14:41:00 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fulladd $end
+$var wire 1 ! sum $end
+$var wire 1 " c_out $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % c_in $end
+$var integer 32 & i [31:0] $end
+$scope module uut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % c_in $end
+$var reg 1 " c_out $end
+$var reg 1 ! sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+1%
+0$
+1#
+1"
+0!
+$end
+#10000
+b0 &
+#30000
+1$
+0#
+b1 &
+#50000
+1!
+1#
+b10 &
+#70000
+0!
+0$
+b11 &
+#90000
+b100 &
+#110000
+b101 &
+#130000
+0"
+1!
+0%
+1$
+0#
+b110 &
+#150000
+1"
+0!
+1#
+b111 &
+#170000
+0"
+1!
+0$
+b1000 &
+#190000
+1$
+0#
+b1001 &
+#210000
+1"
+1%
+1#
+b1010 &
+#230000
+0"
+0%
+0$
+b1011 &
+#250000
+1%
+0#
+b1100 &
+#270000
+1"
+0!
+1$
+b1101 &
+#290000
+1!
+1#
+b1110 &
+#310000
+0"
+0$
+0#
+b1111 &
+#330000
+1"
+0!
+0%
+1$
+1#
+b10000 &
+#350000
+0"
+0$
+0#
+b10001 &
+#370000
+1!
+1$
+b10010 &
+#390000
+1"
+0!
+1%
+b10011 &
+#410000
+0"
+0%
+0$
+b10100 &
